@@ -61,11 +61,7 @@ add_action( 'init','ovey_academic_order_page' );
 add_shortcode('PlacexOrder','create_order_form');
 
 
-
-
 //SHORTCODES admin
-
-
 //call to create page 
 //ovey_academic_order_page($title,$content,$type); 
 

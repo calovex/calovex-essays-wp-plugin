@@ -1,4 +1,8 @@
 <?php
+
+var_dump($_POST);
+
+
 include_once("config.php");
 include_once("paypal.class.php");
 
@@ -11,17 +15,14 @@ if($_POST) //Post Data received from product list page.
 	//Mainly we need 4 variables from product page Item Name, Item Price, Item Number and Item Quantity.
 	//Please Note : People can manipulate hidden field amounts in form,
 	//In practical world you must fetch actual price from database using item id. Eg: 
-	//$ItemPrice = $mysqli->query("SELECT item_price FROM products WHERE id = Product_Number");
-
-		
 	$email =$_POST["email"];
-	$firstname='boy example';//$_POST["first_name"];
-	$lastname='alex';//$_POST["last_name"];	
-	$password=1221123;//$_POST["password"];
-	$country='kenya';//$_POST["country"];
-	$countrycode=213;//$_POST["country_code"];
-	$areacode=2312;//$_POST["area_code"];
-	$phonenumber=3345354353;//$_POST["phone_number"];
+	$firstname=$_POST["email"];
+	$lastname=$_POST["email"];
+	$password=$_POST["password"];
+	$country=$_POST["country"];
+	$countrycode=$_POST["country_code"];
+	$areacode=$_POST["area_code"];
+	$phonenumber=$_POST["phone_number"];
 	
 			
 			
@@ -46,7 +47,6 @@ if($_POST) //Post Data received from product list page.
 					   
 	$ItemQty 		= $_POST["itemQty"]; // Item Quantity
 	$ItemTotalPrice = ($ItemPrice*$ItemQty); //(Item Price x Quantity = Total) Get total amount of product; 
-	
 
 	//discount	
 	//Other important variables like tax, shipping cost

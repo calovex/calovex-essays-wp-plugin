@@ -6,12 +6,9 @@
  * @see     https://docs.alexovey.com
  * @package WooCommerce\Templates
  * @version 4.6.0
- */
- 
+ */ 
 defined( 'ABSPATH' ) || exit;
-
 define( 'WP_USE_THEMES', true );
-
 
 function ovey_order_form(){ 
 $order_form='
@@ -125,10 +122,10 @@ $order_form='
 	</optgroup>	
 	
 	<optgroup label="Applied sciences">		
-		<option value="agriculture">Agriculture</option>
-		<option value="architecture">Architecture</option>
-		<option value="design and technology">Design and Technology</option>
-		<option value="engineering and construction">Engineering and Construction</option>
+		<option value="Agriculture">Agriculture</option>
+		<option value="Architecture">Architecture</option>
+		<option value="Design and technology">Design and Technology</option>
+		<option value="ngineering and construction">Engineering and Construction</option>
 		<option value="environmental studies">Environmental studies</option>
 		<option value="health sciences and medicines">Health sciences and medicine</option>
 		<option value="education">Education</option>
@@ -327,8 +324,8 @@ $order_form.='
 
   <div class="tab">Contact Info:
     <p>Username: <input type="text" placeholder="E-mail..." name="email"></p>
-    <p>Password:<input type="text" placeholder="Phone..."  name="phone"></p>
-	<p>Confirm Password:<input type="text" placeholder="Phone..." name="phone"></p>
+    <p>Password:<input type="password" placeholder="Password..."  name="passwordattempt"></p>
+	<p>Confirm Password:<input type="password" placeholder="re-enter password..." name="password"></p>
   </div>
 	
 		
