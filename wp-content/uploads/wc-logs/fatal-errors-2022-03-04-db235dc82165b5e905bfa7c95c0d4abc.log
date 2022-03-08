@@ -1,0 +1,67 @@
+2022-03-04T05:42:02+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\wamp642\www\client_plugin\wp-admin\includes\class-wp-filesystem-direct.php on line 173
+
+2022-03-04T05:44:26+00:00 CRITICAL Uncaught Error: Call to a member function bind_param() on bool in C:\wamp642\www\client_plugin\wp-content\plugins\academic\lib\paypal\process.php:319
+Stack trace:
+#0 {main}
+  thrown in C:\wamp642\www\client_plugin\wp-content\plugins\academic\lib\paypal\process.php on line 319
+
+2022-03-04T05:46:18+00:00 CRITICAL Uncaught Error: Call to a member function bind_param() on bool in C:\wamp642\www\client_plugin\wp-content\plugins\academic\lib\paypal\process.php:319
+Stack trace:
+#0 {main}
+  thrown in C:\wamp642\www\client_plugin\wp-content\plugins\academic\lib\paypal\process.php on line 319
+
+2022-03-04T05:53:32+00:00 CRITICAL Uncaught Error: Call to a member function bind_param() on bool in C:\wamp642\www\client_plugin\wp-content\plugins\academic\lib\paypal\process.php:319
+Stack trace:
+#0 {main}
+  thrown in C:\wamp642\www\client_plugin\wp-content\plugins\academic\lib\paypal\process.php on line 319
+
+2022-03-04T05:57:09+00:00 CRITICAL Uncaught Error: Call to a member function bind_param() on bool in C:\wamp642\www\client_plugin\wp-content\plugins\academic\lib\paypal\process.php:320
+Stack trace:
+#0 {main}
+  thrown in C:\wamp642\www\client_plugin\wp-content\plugins\academic\lib\paypal\process.php on line 320
+
+2022-03-04T05:57:53+00:00 CRITICAL Uncaught Error: Call to a member function bind_param() on bool in C:\wamp642\www\client_plugin\wp-content\plugins\academic\lib\paypal\process.php:320
+Stack trace:
+#0 {main}
+  thrown in C:\wamp642\www\client_plugin\wp-content\plugins\academic\lib\paypal\process.php on line 320
+
+2022-03-04T06:02:29+00:00 CRITICAL Uncaught Error: Call to a member function bind_param() on bool in C:\wamp642\www\client_plugin\wp-content\plugins\academic\lib\paypal\process.php:318
+Stack trace:
+#0 {main}
+  thrown in C:\wamp642\www\client_plugin\wp-content\plugins\academic\lib\paypal\process.php on line 318
+
+2022-03-04T06:03:18+00:00 CRITICAL Uncaught Error: Call to a member function bind_param() on bool in C:\wamp642\www\client_plugin\wp-content\plugins\academic\lib\paypal\process.php:321
+Stack trace:
+#0 {main}
+  thrown in C:\wamp642\www\client_plugin\wp-content\plugins\academic\lib\paypal\process.php on line 321
+
+2022-03-04T12:13:24+00:00 CRITICAL Cannot redeclare wp_signon() (previously declared in C:\wamp642\www\client_plugin\wp-includes\user.php:33) in C:\wamp642\www\client_plugin\wp-includes\user.php on line 33
+
+2022-03-04T12:15:03+00:00 CRITICAL Cannot redeclare wp_signon() (previously declared in C:\wamp642\www\client_plugin\wp-includes\user.php:33) in C:\wamp642\www\client_plugin\wp-includes\user.php on line 33
+
+2022-03-04T12:15:22+00:00 CRITICAL Cannot redeclare wp_signon() (previously declared in C:\wamp642\www\client_plugin\wp-includes\user.php:33) in C:\wamp642\www\client_plugin\wp-includes\user.php on line 33
+
+2022-03-04T12:37:19+00:00 CRITICAL Cannot redeclare wp_signon() (previously declared in C:\wamp642\www\client_plugin\wp-includes\user.php:33) in C:\wamp642\www\client_plugin\wp-includes\user.php on line 33
+
+2022-03-04T12:38:59+00:00 CRITICAL Cannot redeclare wp_signon() (previously declared in C:\wamp642\www\client_plugin\wp-includes\user.php:33) in C:\wamp642\www\client_plugin\wp-includes\user.php on line 33
+
+2022-03-04T12:39:10+00:00 CRITICAL Cannot redeclare wp_signon() (previously declared in C:\wamp642\www\client_plugin\wp-includes\user.php:33) in C:\wamp642\www\client_plugin\wp-includes\user.php on line 33
+
+2022-03-04T12:39:29+00:00 CRITICAL Cannot redeclare wp_signon() (previously declared in C:\wamp642\www\client_plugin\wp-includes\user.php:33) in C:\wamp642\www\client_plugin\wp-includes\user.php on line 33
+
+2022-03-04T12:40:14+00:00 CRITICAL Cannot redeclare wp_signon() (previously declared in C:\wamp642\www\client_plugin\wp-includes\user.php:33) in C:\wamp642\www\client_plugin\wp-includes\user.php on line 33
+
+2022-03-04T13:34:11+00:00 CRITICAL Cannot redeclare wp_signon() (previously declared in C:\wamp642\www\client_plugin\wp-includes\user.php:33) in C:\wamp642\www\client_plugin\wp-includes\user.php on line 33
+
+2022-03-04T14:29:12+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wpdb::insert(), 0 passed in C:\wamp642\www\client_plugin\wp-content\plugins\academic\lib\client\client_management.php on line 109 and at least 2 expected in C:\wamp642\www\client_plugin\wp-includes\wp-db.php:2300
+Stack trace:
+#0 C:\wamp642\www\client_plugin\wp-content\plugins\academic\lib\client\client_management.php(109): wpdb->insert()
+#1 {main}
+  thrown in C:\wamp642\www\client_plugin\wp-includes\wp-db.php on line 2300
+
+2022-03-04T14:30:19+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wpdb::insert(), 1 passed in C:\wamp642\www\client_plugin\wp-content\plugins\academic\lib\client\client_management.php on line 109 and at least 2 expected in C:\wamp642\www\client_plugin\wp-includes\wp-db.php:2300
+Stack trace:
+#0 C:\wamp642\www\client_plugin\wp-content\plugins\academic\lib\client\client_management.php(109): wpdb->insert(Object(client_management))
+#1 {main}
+  thrown in C:\wamp642\www\client_plugin\wp-includes\wp-db.php on line 2300
+

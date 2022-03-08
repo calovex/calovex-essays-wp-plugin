@@ -1,0 +1,12 @@
+2022-03-05T11:44:07+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function client_order_management::add_orders(), 17 passed in C:\wamp642\www\client_plugin\wp-content\plugins\academic\lib\client\client_order_managment .php on line 107 and exactly 18 expected in C:\wamp642\www\client_plugin\wp-content\plugins\academic\lib\client\client_order_managment .php:15
+Stack trace:
+#0 C:\wamp642\www\client_plugin\wp-content\plugins\academic\lib\client\client_order_managment .php(107): client_order_management->add_orders(43, 4, 678, 'topic', 'doctype', '23//11/2020', 'writer_level', 'spacing,$number...', 'one_page_summar...', 'subject_area', 'academic_level', 'reference_style', 'number_of_refer...', 'prefered_langua...', 'order_descripti...', 'order_status', 'paper_type')
+#1 {main}
+  thrown in C:\wamp642\www\client_plugin\wp-content\plugins\academic\lib\client\client_order_managment .php on line 15
+
+2022-03-05T11:46:16+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function client_order_management::add_orders(), 17 passed in C:\wamp642\www\client_plugin\wp-content\plugins\academic\lib\client\client_order_managment .php on line 107 and exactly 18 expected in C:\wamp642\www\client_plugin\wp-content\plugins\academic\lib\client\client_order_managment .php:15
+Stack trace:
+#0 C:\wamp642\www\client_plugin\wp-content\plugins\academic\lib\client\client_order_managment .php(107): client_order_management->add_orders(43, 4, 678, 'topic', 'doctype', '23//11/2020', 'writer_level', 'spacing,$number...', 'one_page_summar...', 'subject_area', 'academic_level', 'reference_style', 'number_of_refer...', 'prefered_langua...', 'order_descripti...', 'order_status', 'paper_type')
+#1 {main}
+  thrown in C:\wamp642\www\client_plugin\wp-content\plugins\academic\lib\client\client_order_managment .php on line 15
+
